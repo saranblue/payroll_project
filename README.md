@@ -59,7 +59,30 @@ Runs on: http://localhost:3000
 ```
 ### 📁 Project Structure
 ```
-<pre><code>## 📁 Project Structure <details> <summary>Click to expand</summary> ``` payroll_project/ ├── backend/ │ ├── app.py │ ├── models.py │ ├── database.db │ ├── requirements.txt │ ├── frontend/ │ ├── public/ │ ├── src/ │ │ ├── components/ │ │ │ ├── EmployeeForm.js │ │ │ ├── EmployeeList.js │ │ │ ├── EmployeeView.js │ │ │ └── Report.js │ │ ├── Home.js │ │ ├── App.js │ │ └── index.js │ ├── package.json │ ├── .gitignore ├── README.md └── LICENSE ``` </details> </code></pre>
+payroll_project/
+├── backend/
+│   ├── app.py                   # Main Flask application              
+│   ├── database.db              # SQLite database file (auto-generated)
+│   ├── requirements.txt         # Backend dependencies
+│                 
+│
+├── frontend/
+│   ├── public/
+│   │   └── index.html
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── EmployeeForm.js
+│   │   │   ├── EmployeeList.js
+│   │   │   ├── EmployeeView.js
+│   │   │   └── Report.js
+│   │   ├── App.js               # Main app and routing
+│   │   ├── Home.js              # Home layout with form + list
+│   │   └── index.js             # React DOM rendering
+│   ├── package.json             # Frontend dependencies and scripts
+│   └── .gitignore               # Ignore node_modules, build, etc.
+
+                     
+
 
 
 
