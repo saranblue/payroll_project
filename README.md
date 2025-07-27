@@ -67,8 +67,6 @@ payroll_project/
 │                 
 │
 ├── frontend/
-│   ├── public/
-│   │   └── index.html
 │   ├── src/
 │   │   ├── components/
 │   │   │   ├── EmployeeForm.js
