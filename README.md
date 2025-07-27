@@ -56,6 +56,9 @@ cd frontend
 npm install
 npm start
 Runs on: http://localhost:3000
+```
+### 📁 Project Structure
+<pre><code>## 📁 Project Structure <details> <summary>Click to expand</summary> ``` payroll_project/ ├── backend/ │ ├── app.py │ ├── models.py │ ├── database.db │ ├── requirements.txt │ ├── frontend/ │ ├── public/ │ ├── src/ │ │ ├── components/ │ │ │ ├── EmployeeForm.js │ │ │ ├── EmployeeList.js │ │ │ ├── EmployeeView.js │ │ │ └── Report.js │ │ ├── Home.js │ │ ├── App.js │ │ └── index.js │ ├── package.json │ ├── .gitignore ├── README.md └── LICENSE ``` </details> </code></pre>
 
 
 
