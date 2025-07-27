@@ -38,16 +38,20 @@ A full-stack Payroll Management System built with **React.js** (frontend) and **
 ```
 git clone https://github.com/saranblue/payroll_project.git
 cd payroll_project
+```
 ---
 ### 2️⃣ Backend Setup (Flask)
+```
 cd backend
 python -m venv venv
 venv\Scripts\activate   # On Windows
 pip install -r requirements.txt
 python app.py
 Runs on: http://localhost:5000
+```
 
 ### 3️⃣ Frontend Setup (React)
+```
 cd frontend
 npm install
 npm start
