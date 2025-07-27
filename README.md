@@ -35,6 +35,7 @@ A full-stack Payroll Management System built with **React.js** (frontend) and **
 
 ### 1️⃣ Clone the repo
 
+```
 git clone https://github.com/saranblue/payroll_project.git
 cd payroll_project
 ---
